@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj": {}
+    "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj": {
+    "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
+        "projectUniqueName": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
         "projectName": "DigitalCompoundAPI",
-        "projectPath": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
+        "projectPath": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
         "packagesPath": "C:\\Users\\Andrzej\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\obj\\",
+        "outputPath": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrzej\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +40,14 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.4, )"
             },
