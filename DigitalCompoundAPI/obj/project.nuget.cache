@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rBBh6sRge0cZYyTWI5ob665LY7q2H4fa61+pa/LO2N+6dN421UBn+bfWk45qU4v1DRpqgspMxFUwJNwDSPpmtg==",
+  "dgSpecHash": "BYH3wGe4XEqJ/x/lSlwBl9EIp4ib7ToRZcPcL4txBEuvrmTQPjQR4L7fbSE5Ko9Q0d5qyOLXCk/siD7A7ADtog==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
+  "projectFilePath": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrzej\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Andrzej\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

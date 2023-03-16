@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj": {}
+    "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj": {
+    "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
         "projectName": "DigitalCompoundAPI",
-        "projectPath": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
+        "projectPath": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
         "packagesPath": "C:\\Users\\Andrzej\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\obj\\",
+        "outputPath": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrzej\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,6 +21,7 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +45,8 @@
               "version": "[7.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.4, )"
             },

@@ -49,7 +49,7 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -215,7 +215,7 @@
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -376,7 +376,7 @@
           "System.Text.Json": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.DependencyModel.dll": {
+          "lib/net7.0/_._": {
             "related": ".xml"
           }
         },
@@ -688,7 +688,7 @@
           "System.CodeDom": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/Mono.TextTemplating.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
@@ -769,7 +769,7 @@
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.CodeDom.dll": {
+          "ref/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -3878,11 +3878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
       "projectName": "DigitalCompoundAPI",
-      "projectPath": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
+      "projectPath": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\DigitalCompoundAPI.csproj",
       "packagesPath": "C:\\Users\\Andrzej\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\obj\\",
+      "outputPath": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrzej\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3892,6 +3892,7 @@
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
