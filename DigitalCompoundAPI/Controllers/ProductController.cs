@@ -2,6 +2,7 @@ using System.Security.Cryptography;
 using DigitalCompoundAPI.Data;
 using DigitalCompoundAPI.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace DigitalCompoundAPI.Controllers;
 
@@ -16,9 +17,9 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet("all")]
-    public ActionResult<List<Product>> GetProducts()
+    public async Task<ActionResult<List<Product>>> GetProducts()
     {
-        var products = _dbContext.Products.ToList();
+        var products = await _dbContext.Products.ToListAsync();
         return products;
     }
 
