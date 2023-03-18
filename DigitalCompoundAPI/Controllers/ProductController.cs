@@ -1,5 +1,6 @@
 using System.Security.Cryptography;
 using DigitalCompoundAPI.Data;
+using DigitalCompoundAPI.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DigitalCompoundAPI.Controllers;
@@ -12,12 +13,13 @@ public class ProductController : ControllerBase
     public ProductController(DigitalCompoundDbContext dbContext)
     {
         _dbContext = dbContext;
-
     }
+
     [HttpGet("all")]
-    public string GetProducts()
+    public ActionResult<List<Product>> GetProducts()
     {
-        return "returns a list of products";
+        var products = _dbContext.Products.ToList();
+        return products;
     }
 
     [HttpGet("single/{id}")]
