@@ -1,7 +1,7 @@
-using DigitalCompoundAPI.Entities;
+using DigitalCompoundCore.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalCompoundAPI.Data;
+namespace DigitalCompoundInfrastructure.Data;
 
 public class DigitalCompoundDbContext : DbContext
 {

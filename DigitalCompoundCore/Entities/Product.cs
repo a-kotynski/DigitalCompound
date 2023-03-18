@@ -1,4 +1,4 @@
-namespace DigitalCompoundAPI.Entities;
+namespace DigitalCompoundCore.Entities;
 
 public class Product
 {

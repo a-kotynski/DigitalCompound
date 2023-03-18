@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace DigitalCompoundAPI.Data.Migrations
+namespace DigitalCompoundInfrastructure.Data.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

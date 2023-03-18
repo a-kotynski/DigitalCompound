@@ -1,4 +1,4 @@
-using DigitalCompoundAPI.Data;
+using DigitalCompoundInfrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

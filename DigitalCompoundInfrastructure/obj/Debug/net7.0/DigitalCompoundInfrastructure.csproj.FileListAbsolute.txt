@@ -1,0 +1,15 @@
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\bin\Debug\net7.0\DigitalCompoundInfrastructure.deps.json
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\bin\Debug\net7.0\DigitalCompoundInfrastructure.dll
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\bin\Debug\net7.0\DigitalCompoundInfrastructure.pdb
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\bin\Debug\net7.0\DigitalCompoundCore.dll
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\bin\Debug\net7.0\DigitalCompoundCore.pdb
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\DigitalCompoundInfrastructure.csproj.AssemblyReference.cache
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\DigitalCompoundInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\DigitalCompoundInfrastructure.AssemblyInfoInputs.cache
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\DigitalCompoundInfrastructure.AssemblyInfo.cs
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\DigitalCompoundInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\DigitalCompoundInfrastructure.csproj.CopyComplete
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\DigitalCompoundInfrastructure.dll
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\refint\DigitalCompoundInfrastructure.dll
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\DigitalCompoundInfrastructure.pdb
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundInfrastructure\obj\Debug\net7.0\ref\DigitalCompoundInfrastructure.dll

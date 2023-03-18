@@ -1,6 +1,5 @@
-using System.Security.Cryptography;
-using DigitalCompoundAPI.Data;
-using DigitalCompoundAPI.Entities;
+using DigitalCompoundCore.Entities;
+using DigitalCompoundInfrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

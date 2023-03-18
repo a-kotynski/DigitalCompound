@@ -1,0 +1,12 @@
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\bin\Debug\net7.0\DigitalCompoundCore.deps.json
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\bin\Debug\net7.0\DigitalCompoundCore.dll
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\bin\Debug\net7.0\DigitalCompoundCore.pdb
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\DigitalCompoundCore.csproj.AssemblyReference.cache
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\DigitalCompoundCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\DigitalCompoundCore.AssemblyInfoInputs.cache
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\DigitalCompoundCore.AssemblyInfo.cs
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\DigitalCompoundCore.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\DigitalCompoundCore.dll
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\refint\DigitalCompoundCore.dll
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\DigitalCompoundCore.pdb
+C:\Users\Andrzej\source\repos\DigitalCompound\DigitalCompoundCore\obj\Debug\net7.0\ref\DigitalCompoundCore.dll

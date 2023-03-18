@@ -1241,7 +1241,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DigitalCompoundCore": "1.0.0"
+          "DigitalCompoundCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4"
         },
         "compile": {
           "bin/placeholder/DigitalCompoundInfrastructure.dll": {}
@@ -3902,7 +3903,6 @@
       "DigitalCompoundInfrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.4",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.4",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -3956,10 +3956,6 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[7.0.4, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.4, )"
           },
