@@ -1226,6 +1226,29 @@
             "rid": "win"
           }
         }
+      },
+      "DigitalCompoundCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DigitalCompoundCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigitalCompoundCore.dll": {}
+        }
+      },
+      "DigitalCompoundInfrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DigitalCompoundCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DigitalCompoundInfrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigitalCompoundInfrastructure.dll": {}
+        }
       }
     }
   },
@@ -3862,10 +3885,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DigitalCompoundCore/1.0.0": {
+      "type": "project",
+      "path": "../DigitalCompoundCore/DigitalCompoundCore.csproj",
+      "msbuildProject": "../DigitalCompoundCore/DigitalCompoundCore.csproj"
+    },
+    "DigitalCompoundInfrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DigitalCompoundInfrastructure/DigitalCompoundInfrastructure.csproj",
+      "msbuildProject": "../DigitalCompoundInfrastructure/DigitalCompoundInfrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DigitalCompoundInfrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.4",
@@ -3898,7 +3932,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundInfrastructure\\DigitalCompoundInfrastructure.csproj": {
+              "projectPath": "C:\\Users\\Andrzej\\source\\repos\\DigitalCompound\\DigitalCompoundInfrastructure\\DigitalCompoundInfrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
