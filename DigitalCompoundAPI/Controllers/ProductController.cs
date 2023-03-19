@@ -1,4 +1,5 @@
 using DigitalCompoundCore.Entities;
+using DigitalCompoundCore.Intefaces;
 using DigitalCompoundInfrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,23 +10,23 @@ namespace DigitalCompoundAPI.Controllers;
 [Route("api/[controller]")]
 public class ProductController : ControllerBase
 {
-    private readonly DigitalCompoundDbContext _dbContext;
-    public ProductController(DigitalCompoundDbContext dbContext)
+    private readonly IProductRepository _repository;
+    public ProductController(IProductRepository repository)
     {
-        _dbContext = dbContext;
+        _repository = repository;
     }
 
     [HttpGet("all")]
     public async Task<ActionResult<List<Product>>> GetProducts()
     {
-        var products = await _dbContext.Products.ToListAsync();
-        return products;
+        var products = await _repository.GetProductsAsync();
+        return Ok(products);
     }
 
     [HttpGet("single/{id}")]
     public async Task<ActionResult<Product>> GetProduct(int id)
     {
-        var product = await _dbContext.Products.FindAsync(id);
-        return product;
+        var product = await _repository.GetProductByIdAsync(id);
+        return Ok(product);
     }
 }

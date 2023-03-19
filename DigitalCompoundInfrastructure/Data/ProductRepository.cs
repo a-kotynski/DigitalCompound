@@ -1,17 +1,26 @@
 using DigitalCompoundCore.Entities;
 using DigitalCompoundCore.Intefaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace DigitalCompoundInfrastructure.Data;
 
 public class ProductRepository : IProductRepository
 {
-    public Task<Product> GetProductByIdAsync(int id)
+    private readonly DigitalCompoundDbContext _dbContext;
+    public ProductRepository(DigitalCompoundDbContext dbContext)
     {
-        throw new NotImplementedException();
+        _dbContext = dbContext;
     }
 
-    public Task<IReadOnlyList<Product>> GetProductsAsync()
+    public async Task<Product> GetProductByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        var product = await _dbContext.Products.FindAsync(id);
+        return product;
+    }
+
+    public async Task<IReadOnlyList<Product>> GetProductsAsync()
+    {
+        var products = await _dbContext.Products.ToListAsync();
+        return products;
     }
 }
