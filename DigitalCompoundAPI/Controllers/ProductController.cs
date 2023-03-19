@@ -1,8 +1,6 @@
 using DigitalCompoundCore.Entities;
 using DigitalCompoundCore.Intefaces;
-using DigitalCompoundInfrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace DigitalCompoundAPI.Controllers;
 
