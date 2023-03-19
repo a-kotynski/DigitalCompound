@@ -29,4 +29,18 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var dbContext = services.GetRequiredService<DigitalCompoundDbContext>();
+var logger = services.GetRequiredService<ILogger<Program>>();
+
+try
+{
+    await dbContext.Database.MigrateAsync();
+}
+catch (Exception ex)
+{
+    logger.LogError(ex, "Migration error.");
+}
+
 app.Run();
