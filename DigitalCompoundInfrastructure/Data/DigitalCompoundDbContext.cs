@@ -9,6 +9,6 @@ public class DigitalCompoundDbContext : DbContext
     {
     }
     public DbSet<Product> Products { get; set; }
-    public DbSet<ProductBrand> ProductBrands { get; set; }
-    public DbSet<ProductType> ProductTypes { get; set; }
+    public DbSet<ProductBrand> ProductBrands { get; set; } // new table
+    public DbSet<ProductType> ProductTypes { get; set; } // new table
 }
