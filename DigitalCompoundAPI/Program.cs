@@ -37,7 +37,7 @@ var logger = services.GetRequiredService<ILogger<Program>>();
 try
 {
     await dbContext.Database.MigrateAsync();
-    // await DigitalCompoundDbContextSeed.SeedAsync(dbContext);
+    await DigitalCompoundDbContextSeed.SeedAsync(dbContext);
 }
 catch (Exception ex)
 {
