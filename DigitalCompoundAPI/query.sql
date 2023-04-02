@@ -3,3 +3,9 @@
 
   SELECT *
   FROM [Products];
+
+  SELECT *
+  FROM [ProductBrands];
+
+  SELECT *
+  FROM [ProductTypes];

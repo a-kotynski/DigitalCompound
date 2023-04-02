@@ -11,16 +11,25 @@ public class ProductRepository : IProductRepository
     {
         _dbContext = dbContext;
     }
-
+    public async Task<IReadOnlyList<Product>> GetProductsAsync()
+    {
+        var products = await _dbContext.Products.ToListAsync();
+        return products;
+    }
     public async Task<Product> GetProductByIdAsync(int id)
     {
         var product = await _dbContext.Products.FindAsync(id);
         return product;
     }
 
-    public async Task<IReadOnlyList<Product>> GetProductsAsync()
+    public async Task<IReadOnlyList<ProductBrand>> GetProductBrandsAsync()
     {
-        var products = await _dbContext.Products.ToListAsync();
-        return products;
+        var productBrands = await _dbContext.ProductBrands.ToListAsync();
+        return productBrands;
+    }
+    public async Task<IReadOnlyList<ProductType>> GetProductTypesAsync()
+    {
+        var productTypes = await _dbContext.ProductTypes.ToListAsync();
+        return productTypes;
     }
 }

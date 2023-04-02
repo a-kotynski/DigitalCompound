@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using DigitalCompoundCore.Entities;
 using DigitalCompoundCore.Intefaces;
 using Microsoft.AspNetCore.Mvc;
@@ -27,4 +28,19 @@ public class ProductController : ControllerBase
         var product = await _repository.GetProductByIdAsync(id);
         return Ok(product);
     }
+
+    [HttpGet("all/brands")]
+    public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
+    {
+        var productBrands = await _repository.GetProductBrandsAsync();
+        return Ok(productBrands);
+    }
+
+    [HttpGet("all/types")]
+    public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductTypes()
+    {
+        var productTypes = await _repository.GetProductTypesAsync();
+        return Ok(productTypes);
+    }
+
 }
