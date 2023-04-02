@@ -13,12 +13,22 @@ public class ProductRepository : IProductRepository
     }
     public async Task<IReadOnlyList<Product>> GetProductsAsync()
     {
-        var products = await _dbContext.Products.ToListAsync();
+        var products = await _dbContext
+            .Products
+            .Include(p => p.ProductType)
+            .Include(p => p.ProductBrand)
+            .ToListAsync();
+
         return products;
     }
     public async Task<Product> GetProductByIdAsync(int id)
     {
-        var product = await _dbContext.Products.FindAsync(id);
+        var product = await _dbContext
+            .Products
+            .Include(p => p.ProductType)
+            .Include(p => p.ProductBrand)
+            .SingleOrDefaultAsync(p => p.Id == id);
+
         return product;
     }
 

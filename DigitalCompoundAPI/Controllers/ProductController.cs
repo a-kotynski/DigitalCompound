@@ -42,5 +42,4 @@ public class ProductController : ControllerBase
         var productTypes = await _repository.GetProductTypesAsync();
         return Ok(productTypes);
     }
-
 }
