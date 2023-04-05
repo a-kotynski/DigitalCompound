@@ -1,17 +1,24 @@
 using DigitalCompoundCore.Entities;
 using DigitalCompoundCore.Intefaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace DigitalCompoundInfrastructure.Data;
 
 public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
 {
-    public Task<T> GetByIdAsync(int id)
+    private readonly DigitalCompoundDbContext _dbContext;
+    public GenericRepository(DigitalCompoundDbContext dbContext)
     {
-        throw new NotImplementedException();
+        _dbContext = dbContext;
     }
 
-    public Task<IReadOnlyList<T>> ListAllAsync()
+    public async Task<T> GetByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        return await _dbContext.Set<T>().FindAsync(id);
+    }
+
+    public async Task<IReadOnlyList<T>> ListAllAsync()
+    {
+        return await _dbContext.Set<T>().ToListAsync();
     }
 }
