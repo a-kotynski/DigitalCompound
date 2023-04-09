@@ -1,9 +1,7 @@
-using System.Runtime.CompilerServices;
 using DigitalCompoundCore.Entities;
 using DigitalCompoundCore.Intefaces;
 using DigitalCompoundCore.Specifications;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DigitalCompoundInfrastructure.Data;
 

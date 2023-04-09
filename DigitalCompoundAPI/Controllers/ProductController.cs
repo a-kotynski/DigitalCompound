@@ -1,5 +1,6 @@
 using DigitalCompoundCore.Entities;
 using DigitalCompoundCore.Intefaces;
+using DigitalCompoundCore.Specifications;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DigitalCompoundAPI.Controllers;
@@ -25,7 +26,8 @@ public class ProductController : ControllerBase
     [HttpGet("all")]
     public async Task<ActionResult<List<Product>>> GetProducts()
     {
-        var products = await _productsRepository.ListAllAsync();
+        var spec = new ProductsWithTypesAndBrandsSpecification();
+        var products = await _productsRepository.ListAsync(spec);
         return Ok(products);
     }
 
