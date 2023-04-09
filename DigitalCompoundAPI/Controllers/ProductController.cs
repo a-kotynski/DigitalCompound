@@ -20,7 +20,7 @@ public class ProductController : ControllerBase
     {
         _productsRepository = productsRepository;
         _productBrandRepository = productBrandRepository;
-        _productTypeRepository = productTypeRepository;
+        _productTypeRepository = productTypeRepository; 
     }
 
     [HttpGet("all")]
