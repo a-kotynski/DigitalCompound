@@ -26,15 +26,16 @@ public class ProductController : ControllerBase
     [HttpGet("all")]
     public async Task<ActionResult<List<Product>>> GetProducts()
     {
-        var spec = new ProductsWithTypesAndBrandsSpecification();
-        var products = await _productsRepository.ListAsync(spec);
+        var specification = new ProductsWithTypesAndBrandsSpecification();
+        var products = await _productsRepository.ListAsync(specification);
         return Ok(products);
     }
 
     [HttpGet("single/{id}")]
     public async Task<ActionResult<Product>> GetProduct(int id)
     {
-        var product = await _productsRepository.GetByIdAsync(id);
+        var specification = new ProductsWithTypesAndBrandsSpecification(id);
+        var product = await _productsRepository.GetEntityWithSpecification(specification);
         return Ok(product);
     }
 
